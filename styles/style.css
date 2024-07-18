@@ -1,0 +1,145 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+/* shared styles starts here */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: inter;
+    background-color: #000000;
+}
+h1, h2, h3, h4, li
+{
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+}
+/* shared styles ends here */
+
+/* navbar styles starts here */
+.header{
+    padding: 3.268vw 10vw 0vw 10vw;
+    background: linear-gradient(
+        180deg,
+        rgb(17, 17, 17)20%,
+        rgb(42, 42, 42)100%
+    );
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.menu-bar{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+.menu-bar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2.941vw;
+}
+#home{
+    border-radius: 46px;
+    background-color: rgb(230, 83, 60);
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1.25rem;
+}
+/* navbar styles ends here */
+
+/* banner styles starts here */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 20vw;
+}
+.banner-description{
+    border: 2px solid red;
+    margin: 5.229vw 0vw;
+}
+.banner-description h1{
+    font-weight: 900;
+    font-size: 4.875rem;
+    margin-bottom: 1.634vw;
+    line-height: 0.9;
+}
+#shape{
+    font-family: miama;
+    font-size: 8rem;
+    font-weight: 400;
+}
+.btn-container{
+    margin-top: 2vw;
+}
+.btn-primary{
+    font-size: 1.125rem;
+    padding: 1rem 2.5rem;
+    background-color: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    border-radius: 42px;
+}
+.download{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+.banner-img{
+    border: 2px solid green;
+    position: relative;
+}
+.banner-box1{
+    width: 10rem;
+    height: 4rem;
+    padding: 13px 20px;
+    background-color: rgba(172, 169, 169, 0.101);
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    left: 210px;
+    top: 120px;
+    backdrop-filter: blur(10px);
+}
+.banner-box1 h2{
+    text-align: left;
+}
+.banner-box2{
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    height: 4rem;
+    padding: 13px 20px;
+    background-color: rgba(172, 169, 169, 0.101);
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    left: -100px;
+    top: 420px;
+    backdrop-filter: blur(10px);
+}
+.banner-box h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.banner-box p{
+    font-size: 0.813rem;
+}
+#play-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    margin-right: 10px;
+}
+/* banner styles ends here */
+
+/* change-your-habit styles starts here */
