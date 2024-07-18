@@ -143,3 +143,38 @@ p{
 /* banner styles ends here */
 
 /* change-your-habit styles starts here */
+.change-habit{
+    margin: 6.51vw 10vw 0vw 10vw;
+}
+.habit-title{
+    text-align: center;
+
+}
+.habit-title h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.911vw;
+}
+.habit-title p{
+    font-size: 0.875rem;
+}
+.habit-img-container{
+    margin-top: 3.776vw;
+    display: flex;
+    gap: 2.604vw;
+}
+.habit-img{
+    text-align: center;
+}
+.habit-img img{
+    border-radius: 50%;
+}
+.habit-img h4{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 1.953vw;
+    margin-bottom: 0.391vw;
+}
+.habit-img p{
+    font-size: 0.875rem;
+}
