@@ -259,3 +259,104 @@ input, select{
 ::placeholder{
     color: rgba(255, 255, 255, 0.5);
 }
+/* bmi-calculator styles ends here */
+
+/* meet-our-team styles starts here */
+.our-team{
+    margin: 6.51vw 10vw 0vw 10vw;
+}
+.our-team-title{
+    text-align: center;
+}
+.our-team-title h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.911vw;
+}
+.our-team-gallery{
+    margin-top: 3.776vw;
+    padding: 1.25rem;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.gallery-img1{
+    width: auto;
+    height: 280px;
+    border-radius: 18px;
+    position: relative;
+    background-image: url(../images/trainer1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #00000039;
+    background-blend-mode: overlay;
+}
+.gallery-img2{
+    width: auto;
+    height: 280px;
+    border-radius: 18px;
+    position: relative;
+    background-image: url(../images/trainer2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color:#00000039;
+    background-blend-mode: overlay;
+}
+.gallery-img3{
+    width: auto;
+    height: 280px;
+    border-radius: 18px;
+    position: relative;
+    background-image: url(../images/trainer3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #00000039;
+    background-blend-mode: overlay;
+}
+.gallery-img4{
+    width: auto;
+    height: 280px;
+    border-radius: 18px;
+    position: relative;
+    background-image: url(../images/trainer4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #00000039;
+    background-blend-mode: overlay;
+}
+.gallery-img5{
+    width: auto;
+    height: 280px;
+    border-radius: 18px;
+    position: relative;
+    background-image: url(../images/trainer5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #00000039;
+    background-blend-mode: overlay;
+}
+.gallery-img6{
+    width: auto;
+    height: 280px;
+    border-radius: 18px;
+    position: relative;
+    background-image: url(../images/trainer6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #00000039;
+    background-blend-mode: overlay;
+}
+.img-title{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+/* meet-our-team styles ends here */
