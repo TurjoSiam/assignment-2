@@ -43,7 +43,7 @@ p, td{
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+.logo h4{
     font-size: 2.25rem;
     font-weight: 800;
     color: rgb(230, 83, 60);
@@ -58,6 +58,10 @@ p, td{
     align-items: center;
     list-style: none;
     gap: 2.941vw;
+}
+#hamburger{
+    color: white;
+    display: none;
 }
 #home{
     border-radius: 46px;
@@ -125,6 +129,13 @@ p, td{
     left: -100px;
     top: 420px;
     backdrop-filter: blur(10px);
+}
+#play{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 32px;
+    top: 32px;
 }
 .banner-box h2{
     font-size: 2.5rem;
@@ -205,9 +216,6 @@ p, td{
 /* run-easily styles starts here */
 
 /* bmi-calculator styles starts here */
-.bmi-calculator{
-    
-}
 .bmi-title{
     margin: 6.51vw 25vw 5vw 25vw;
     text-align: left;
@@ -244,6 +252,8 @@ td{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 #activity{
     grid-column: 1 / span 2;
@@ -255,6 +265,8 @@ input, select{
     background-color: rgba(255, 255, 255, 0.1);
     margin: 2px 0px;
     border: none;
+    width: 100%;
+    box-sizing: border-box;
 }
 ::placeholder{
     color: rgba(255, 255, 255, 0.5);
@@ -411,3 +423,47 @@ hr{
     margin-top: 2vw;
 }
 /* footer styles ends here */
+
+@media screen and (max-width: 576px) {
+    .menu-bar ul{
+        display: none;
+    }    
+    #hamburger{
+        display: block;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-description h1{
+        font-size: 2.5rem;
+    }
+    #shape{
+        font-size: 5rem;
+    }
+    .banner-box1{
+        left: 150px;
+        top: 190px;
+    }
+    .banner-box2{
+        left: -20px;
+        top: 420px;
+    }
+    .habit-img-container{
+        flex-direction: column;
+    }
+    .run-easily{
+        flex-direction: column;
+    }
+    .bmi-chart{
+        flex-direction: column;
+    }
+    .our-team-gallery{
+        grid-template-columns: 1fr;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-nav{
+        flex-direction: column;
+    }
+}
