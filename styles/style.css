@@ -26,6 +26,7 @@ p, td{
     border-radius: 42px;
     margin-top: 3vw;
     border: none;
+    cursor: pointer;
 }
 /* shared styles ends here */
 
@@ -376,6 +377,88 @@ input, select{
 }
 /* meet-our-team styles ends here */
 
+/* pricing-plan styles starts here */
+.pricing{
+    margin: 6.51vw 10vw 0vw 10vw;
+}
+.pricing-plan{
+    text-align: center;
+}
+.pricing-plan > h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.911vw;
+}
+.plan-container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.plan{
+    background-color: #2a2a2a;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 8.5rem 3rem 2rem 3rem;
+    position: relative;
+    border-radius: 12px;
+    border: none;
+    transition: .5s;
+}
+.plan:hover{
+    transform: scale(1.1);
+}
+.plan li{
+    list-style: none;
+    text-align: left;
+    margin-top: 1rem;
+}
+.price{
+    background-color: rgb(144, 110, 48);
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 70% 100%, 0 100%);
+    margin-bottom: 2rem;
+    position: absolute;
+    top: -3rem;
+    padding: .6rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    width: 9rem;
+    height: 9rem;
+}
+#price1{
+    /* background-color: #16a4e1; */
+    background: linear-gradient(
+        45deg,
+        #199b02,
+        #02ebbd
+    );
+    
+}
+#price2{
+    /* background-color: #EC2829; */
+    background: linear-gradient(
+        45deg,
+        #ea0808,
+        rgb(251, 189, 2)
+    );
+}
+#price3{
+    /* background-color: #8A288F; */
+    background: linear-gradient(
+        45deg,
+        #0098d9,
+        #fe02e9
+    );
+}
+.price h1{
+    margin: .5rem 0rem;
+    font-size: 3.5rem;
+}
+.price h2{
+    font-size: 1rem;
+}
+/* pricing-plan styles ends here */
+
 /* footer styles starts here */
 .footer{
     margin-top: 8vw;
@@ -427,6 +510,7 @@ hr{
 }
 /* footer styles ends here */
 
+/* responsive for mobile device starts here */
 @media screen and (max-width: 576px) {
     p{
         line-height: 1.3rem;
@@ -503,6 +587,10 @@ hr{
     .our-team-gallery{
         grid-template-columns: 1fr;
     }
+    .plan-container{
+        flex-direction: column;
+        gap: 5rem;
+    }
     .footer-container{
         flex-direction: column;
         gap: 8vw;
@@ -514,3 +602,4 @@ hr{
         flex-direction: column;
     }
 }
+/* responsive for mobile device ends here */
