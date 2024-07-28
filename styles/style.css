@@ -20,11 +20,11 @@ p, td{
 }
 .btn-primary{
     font-size: 1.125rem;
-    padding: 1rem 2.5rem;
+    padding: 1rem 2rem;
     background-color: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
     border-radius: 42px;
-    margin-top: 2vw;
+    margin-top: 3vw;
     border: none;
 }
 /* shared styles ends here */
@@ -80,12 +80,12 @@ p, td{
     gap: 20vw;
 }
 .banner-description{
-    margin: 5.229vw 0vw;
+    margin-top: 5.229vw;
 }
 .banner-description h1{
     font-weight: 900;
     font-size: 4.875rem;
-    margin-bottom: 1.634vw;
+    margin-bottom: 3vw;
     line-height: 0.9;
 }
 #shape{
@@ -93,10 +93,13 @@ p, td{
     font-size: 8rem;
     font-weight: 400;
 }
+.btn-container{
+    display: flex;
+    gap: 1rem;
+}
 .download{
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid rgb(255, 255, 255);
-    margin-top: 2vw;
 }
 .banner-img{
     position: relative;
@@ -159,7 +162,6 @@ p, td{
 }
 .habit-title{
     text-align: center;
-
 }
 .habit-title h2{
     font-size: 3rem;
@@ -179,6 +181,7 @@ p, td{
 }
 .habit-img img{
     border-radius: 50%;
+    border: 5px solid rgb(43, 43, 43);
 }
 .habit-img h4{
     font-size: 1.125rem;
@@ -238,7 +241,7 @@ p, td{
     border-collapse: collapse;
     border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: left;
-    padding: 14px;
+    padding: 14px 30px 14px 14px;
 }
 td{
     font-size: 14px;
@@ -425,17 +428,30 @@ hr{
 /* footer styles ends here */
 
 @media screen and (max-width: 576px) {
-    .menu-bar ul{
+    p{
+        line-height: 1.3rem;
+        font-size: 0.875rem;
+    }
+    .menu-bar{
         display: none;
     }    
     #hamburger{
         display: block;
     }
+    .btn-primary{
+        padding: .5rem 1.2rem;
+        margin-top: 6vw;
+    }
+    .banner-description{
+        margin: 8vw 0vw;
+    }
     .banner{
         flex-direction: column;
+        gap: 0px;
     }
     .banner-description h1{
         font-size: 2.5rem;
+        margin-bottom: 5vw;
     }
     #shape{
         font-size: 5rem;
@@ -448,20 +464,51 @@ hr{
         left: -20px;
         top: 420px;
     }
+    .habit-title h2{
+        font-size: 2rem;
+        margin-bottom: 2vw;
+    }
     .habit-img-container{
         flex-direction: column;
     }
+    .habit-img{
+        margin-top: 5vw;
+    }
     .run-easily{
         flex-direction: column;
+        gap: 6vw;
+    }
+    .run-easily-title h2{
+        font-size: 2rem;
+        margin-bottom: 2vw;
+    }
+    .bmi-title{
+        margin: 6.51vw 10vw 5vw 10vw;
+    }
+    .bmi-title h2{
+        font-size: 2rem;
+        margin-bottom: 2vw;
     }
     .bmi-chart{
         flex-direction: column;
+        gap: 5vw;
+    }
+    .bmi-chart h2{
+        font-size: 1.4rem;
+    }
+    .our-team-title h2{
+        font-size: 2rem;
+        margin-bottom: 2vw;
     }
     .our-team-gallery{
         grid-template-columns: 1fr;
     }
     .footer-container{
         flex-direction: column;
+        gap: 8vw;
+    }
+    .footer-logo{
+        width: 100%;
     }
     .footer-nav{
         flex-direction: column;
