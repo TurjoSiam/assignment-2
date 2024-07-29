@@ -591,6 +591,10 @@ hr{
         flex-direction: column;
         gap: 5rem;
     }
+    .pricing-plan > h2{
+        font-size: 2rem;
+        margin-bottom: 2vw;
+    }
     .footer-container{
         flex-direction: column;
         gap: 8vw;
